@@ -1,0 +1,29 @@
+{
+ "fail_0.104": {
+  "clock": 310480916,
+  "fail_tensor_id": 190,
+  "fail_tensor_name": "x7977",
+  "requested_size": 179830912,
+  "budget": 1046362683,
+  "resident_at_fail": 889795480,
+  "pool_len_at_fail": 0,
+  "pool_bytes_at_fail": 0,
+  "locked_plus_request": 1069626392,
+  "over_budget_by": 23263709
+ },
+ "run_0.101": {
+  "status": "ok",
+  "max_pinned_MB": 754.9,
+  "budget_MB": 1016.2
+ },
+ "run_0.107": {
+  "status": "ok",
+  "max_pinned_MB": 575.1,
+  "budget_MB": 1076.5
+ },
+ "run_0.104": {
+  "status": "oom",
+  "max_pinned_MB": 889.8,
+  "budget_MB": 1046.4
+ }
+}

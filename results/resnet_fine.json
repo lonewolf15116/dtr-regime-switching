@@ -1,0 +1,757 @@
+{
+  "log": "/home/claude/dtr-prototype/simrd/logs/resnet32-56-9000000000.0-2020-10-1-13-3-30-default.log",
+  "heuristic": "DTR",
+  "baseline": {
+    "compute": 291905487,
+    "memory": 10061179648,
+    "const": 35584920,
+    "bottleneck": 539510784
+  },
+  "points": [
+    {
+      "ratio": 0.1,
+      "budget": 1006117964,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.222862145102466,
+        2.222862145102466,
+        2.222862145102466
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.222862145102466,
+      "wall_s": 4.41
+    },
+    {
+      "ratio": 0.101,
+      "budget": 1016179144,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.222862145102466,
+        2.222862145102466,
+        2.222862145102466
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.222862145102466,
+      "wall_s": 4.38
+    },
+    {
+      "ratio": 0.102,
+      "budget": 1026240324,
+      "statuses": [
+        "oom"
+      ],
+      "overheads": [],
+      "deterministic": true,
+      "mean_overhead": null,
+      "wall_s": 1.49
+    },
+    {
+      "ratio": 0.103,
+      "budget": 1036301503,
+      "statuses": [
+        "oom"
+      ],
+      "overheads": [],
+      "deterministic": true,
+      "mean_overhead": null,
+      "wall_s": 1.43
+    },
+    {
+      "ratio": 0.104,
+      "budget": 1046362683,
+      "statuses": [
+        "oom"
+      ],
+      "overheads": [],
+      "deterministic": true,
+      "mean_overhead": null,
+      "wall_s": 1.4
+    },
+    {
+      "ratio": 0.105,
+      "budget": 1056423863,
+      "statuses": [
+        "oom"
+      ],
+      "overheads": [],
+      "deterministic": true,
+      "mean_overhead": null,
+      "wall_s": 1.53
+    },
+    {
+      "ratio": 0.106,
+      "budget": 1066485042,
+      "statuses": [
+        "oom"
+      ],
+      "overheads": [],
+      "deterministic": true,
+      "mean_overhead": null,
+      "wall_s": 1.44
+    },
+    {
+      "ratio": 0.107,
+      "budget": 1076546222,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.0767637231841416,
+        2.0767637231841416,
+        2.0767637231841416
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.0767637231841416,
+      "wall_s": 4.57
+    },
+    {
+      "ratio": 0.108,
+      "budget": 1086607401,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.0767637231841416,
+        2.0767637231841416,
+        2.0767637231841416
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.0767637231841416,
+      "wall_s": 4.07
+    },
+    {
+      "ratio": 0.109,
+      "budget": 1096668581,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.0767637231841416,
+        2.0767637231841416,
+        2.0767637231841416
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.0767637231841416,
+      "wall_s": 4.08
+    },
+    {
+      "ratio": 0.11,
+      "budget": 1106729761,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.0767637231841416,
+        2.0767637231841416,
+        2.0767637231841416
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.0767637231841416,
+      "wall_s": 4.449999999999999
+    },
+    {
+      "ratio": 0.111,
+      "budget": 1116790940,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.212213513478765,
+        3.212213513478765,
+        3.212213513478765
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.212213513478765,
+      "wall_s": 5.06
+    },
+    {
+      "ratio": 0.112,
+      "budget": 1126852120,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.212213513478765,
+        3.212213513478765,
+        3.212213513478765
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.212213513478765,
+      "wall_s": 5.470000000000001
+    },
+    {
+      "ratio": 0.113,
+      "budget": 1136913300,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.212213513478765,
+        3.212213513478765,
+        3.212213513478765
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.212213513478765,
+      "wall_s": 5.62
+    },
+    {
+      "ratio": 0.114,
+      "budget": 1146974479,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.212213513478765,
+        3.212213513478765,
+        3.212213513478765
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.212213513478765,
+      "wall_s": 5.46
+    },
+    {
+      "ratio": 0.115,
+      "budget": 1157035659,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.212213513478765,
+        3.212213513478765,
+        3.212213513478765
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.212213513478765,
+      "wall_s": 5.04
+    },
+    {
+      "ratio": 0.116,
+      "budget": 1167096839,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.329862723683574,
+        3.329862723683574,
+        3.329862723683574
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.329862723683574,
+      "wall_s": 5.890000000000001
+    },
+    {
+      "ratio": 0.117,
+      "budget": 1177158018,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.329862723683574,
+        3.329862723683574,
+        3.329862723683574
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.329862723683574,
+      "wall_s": 5.17
+    },
+    {
+      "ratio": 0.118,
+      "budget": 1187219198,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.329862723683574,
+        3.329862723683574,
+        3.329862723683574
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.329862723683574,
+      "wall_s": 5.3
+    },
+    {
+      "ratio": 0.119,
+      "budget": 1197280378,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        3.329862723683574,
+        3.329862723683574,
+        3.329862723683574
+      ],
+      "deterministic": true,
+      "mean_overhead": 3.329862723683574,
+      "wall_s": 5.28
+    },
+    {
+      "ratio": 0.12,
+      "budget": 1207341557,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.9326799704864746,
+        2.9326799704864746,
+        2.9326799704864746
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.9326799704864746,
+      "wall_s": 4.12
+    },
+    {
+      "ratio": 0.121,
+      "budget": 1217402737,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.9326799704864746,
+        2.9326799704864746,
+        2.9326799704864746
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.9326799704864746,
+      "wall_s": 3.9300000000000006
+    },
+    {
+      "ratio": 0.122,
+      "budget": 1227463917,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.9326799704864746,
+        2.9326799704864746,
+        2.9326799704864746
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.9326799704864746,
+      "wall_s": 3.7
+    },
+    {
+      "ratio": 0.123,
+      "budget": 1237525096,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.9326799704864746,
+        2.9326799704864746,
+        2.9326799704864746
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.9326799704864746,
+      "wall_s": 4.01
+    },
+    {
+      "ratio": 0.124,
+      "budget": 1247586276,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.9326799704864746,
+        2.9326799704864746,
+        2.9326799704864746
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.9326799704864746,
+      "wall_s": 3.8600000000000003
+    },
+    {
+      "ratio": 0.125,
+      "budget": 1257647456,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.924043332559898,
+        2.924043332559898,
+        2.924043332559898
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.924043332559898,
+      "wall_s": 3.69
+    },
+    {
+      "ratio": 0.126,
+      "budget": 1267708635,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.924043332559898,
+        2.924043332559898,
+        2.924043332559898
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.924043332559898,
+      "wall_s": 3.6900000000000004
+    },
+    {
+      "ratio": 0.127,
+      "budget": 1277769815,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.924043332559898,
+        2.924043332559898,
+        2.924043332559898
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.924043332559898,
+      "wall_s": 3.8500000000000005
+    },
+    {
+      "ratio": 0.128,
+      "budget": 1287830994,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.924043332559898,
+        2.924043332559898,
+        2.924043332559898
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.924043332559898,
+      "wall_s": 3.83
+    },
+    {
+      "ratio": 0.129,
+      "budget": 1297892174,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.903176287330289,
+        2.903176287330289,
+        2.903176287330289
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.903176287330289,
+      "wall_s": 3.71
+    },
+    {
+      "ratio": 0.13,
+      "budget": 1307953354,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.903176287330289,
+        2.903176287330289,
+        2.903176287330289
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.903176287330289,
+      "wall_s": 3.66
+    },
+    {
+      "ratio": 0.131,
+      "budget": 1318014533,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.903176287330289,
+        2.903176287330289,
+        2.903176287330289
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.903176287330289,
+      "wall_s": 3.6900000000000004
+    },
+    {
+      "ratio": 0.132,
+      "budget": 1328075713,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.903176287330289,
+        2.903176287330289,
+        2.903176287330289
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.903176287330289,
+      "wall_s": 3.61
+    },
+    {
+      "ratio": 0.133,
+      "budget": 1338136893,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.903176287330289,
+        2.903176287330289,
+        2.903176287330289
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.903176287330289,
+      "wall_s": 3.37
+    },
+    {
+      "ratio": 0.134,
+      "budget": 1348198072,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.881462056929406,
+        2.881462056929406,
+        2.881462056929406
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.881462056929406,
+      "wall_s": 3.5799999999999996
+    },
+    {
+      "ratio": 0.135,
+      "budget": 1358259252,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.881462056929406,
+        2.881462056929406,
+        2.881462056929406
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.881462056929406,
+      "wall_s": 3.3600000000000003
+    },
+    {
+      "ratio": 0.136,
+      "budget": 1368320432,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.881462056929406,
+        2.881462056929406,
+        2.881462056929406
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.881462056929406,
+      "wall_s": 2.8800000000000003
+    },
+    {
+      "ratio": 0.137,
+      "budget": 1378381611,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.881462056929406,
+        2.881462056929406,
+        2.881462056929406
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.881462056929406,
+      "wall_s": 2.73
+    },
+    {
+      "ratio": 0.138,
+      "budget": 1388442791,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.6668606404099555,
+        2.6668606404099555,
+        2.6668606404099555
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.6668606404099555,
+      "wall_s": 2.72
+    },
+    {
+      "ratio": 0.139,
+      "budget": 1398503971,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.6668606404099555,
+        2.6668606404099555,
+        2.6668606404099555
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.6668606404099555,
+      "wall_s": 2.7800000000000002
+    },
+    {
+      "ratio": 0.14,
+      "budget": 1408565150,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.6668606404099555,
+        2.6668606404099555,
+        2.6668606404099555
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.6668606404099555,
+      "wall_s": 2.59
+    },
+    {
+      "ratio": 0.141,
+      "budget": 1418626330,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.6668606404099555,
+        2.6668606404099555,
+        2.6668606404099555
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.6668606404099555,
+      "wall_s": 2.75
+    },
+    {
+      "ratio": 0.142,
+      "budget": 1428687510,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.6668606404099555,
+        2.6668606404099555,
+        2.6668606404099555
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.6668606404099555,
+      "wall_s": 2.63
+    },
+    {
+      "ratio": 0.143,
+      "budget": 1438748689,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.718265939961588,
+        2.718265939961588,
+        2.718265939961588
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.718265939961588,
+      "wall_s": 3.29
+    },
+    {
+      "ratio": 0.144,
+      "budget": 1448809869,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.718265939961588,
+        2.718265939961588,
+        2.718265939961588
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.718265939961588,
+      "wall_s": 3.2399999999999998
+    },
+    {
+      "ratio": 0.145,
+      "budget": 1458871048,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.718265939961588,
+        2.718265939961588,
+        2.718265939961588
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.718265939961588,
+      "wall_s": 3.37
+    },
+    {
+      "ratio": 0.146,
+      "budget": 1468932228,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        2.718265939961588,
+        2.718265939961588,
+        2.718265939961588
+      ],
+      "deterministic": true,
+      "mean_overhead": 2.718265939961588,
+      "wall_s": 3.5199999999999996
+    },
+    {
+      "ratio": 0.147,
+      "budget": 1478993408,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        1.8430184596016175,
+        1.8430184596016175,
+        1.8430184596016175
+      ],
+      "deterministic": true,
+      "mean_overhead": 1.8430184596016175,
+      "wall_s": 3.38
+    },
+    {
+      "ratio": 0.148,
+      "budget": 1489054587,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        1.8430184596016175,
+        1.8430184596016175,
+        1.8430184596016175
+      ],
+      "deterministic": true,
+      "mean_overhead": 1.8430184596016175,
+      "wall_s": 3.53
+    },
+    {
+      "ratio": 0.149,
+      "budget": 1499115767,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        1.8430184596016175,
+        1.8430184596016175,
+        1.8430184596016175
+      ],
+      "deterministic": true,
+      "mean_overhead": 1.8430184596016175,
+      "wall_s": 3.5
+    },
+    {
+      "ratio": 0.15,
+      "budget": 1509176947,
+      "statuses": [
+        "ok"
+      ],
+      "overheads": [
+        1.8430184596016175,
+        1.8430184596016175,
+        1.8430184596016175
+      ],
+      "deterministic": true,
+      "mean_overhead": 1.8430184596016175,
+      "wall_s": 3.21
+    }
+  ]
+}

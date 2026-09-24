@@ -1,0 +1,29 @@
+{
+ "0.101": {
+  "status": "ok",
+  "budget": 1016179144,
+  "n_distinct_locked": 227,
+  "locked_bytes": 754908056,
+  "depth": 8,
+  "tensor": "x8106",
+  "requested": 179830912
+ },
+ "0.104": {
+  "status": "oom",
+  "budget": 1046362683,
+  "n_distinct_locked": 231,
+  "locked_bytes": 889795480,
+  "depth": 118,
+  "tensor": "x7977",
+  "requested": 179830912
+ },
+ "0.107": {
+  "status": "ok",
+  "budget": 1076546222,
+  "n_distinct_locked": 226,
+  "locked_bytes": 575077272,
+  "depth": 30,
+  "tensor": "x7977",
+  "requested": 179830784
+ }
+}
